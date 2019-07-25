@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cc.mrbird.gen.dao.HomeWordMapper">
+  <resultMap id="BaseResultMap" type="cc.mrbird.gen.domain.HomeWord">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="home_word_name" jdbcType="VARCHAR" property="homeWordName" />
+    <result column="re" jdbcType="VARCHAR" property="re" />
+    <result column="ti" jdbcType="VARCHAR" property="ti" />
+    <result column="zi" jdbcType="VARCHAR" property="zi" />
+    <result column="course_id" jdbcType="BIGINT" property="courseId" />
+  </resultMap>
+</mapper>
