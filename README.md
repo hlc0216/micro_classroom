@@ -32,7 +32,7 @@
  * 依赖管理：Maven
  * 数据库：MySQL5.
 ### 版本管理
-SVN，git
+git
 
 ## 环境准备
 ### JDK
@@ -83,7 +83,7 @@ spring:
 安装了git的用户也可以直接使用下面的命令进行克隆：
 
 ```
-git clone https://gitee.com/zch2017lrf/micro_classroom
+git clone https://github.com/hlc0216/micro_classroom
 ```
 ### 项目导入
 IDE工具选择Eclipse或者Intellij IDEA均可。
